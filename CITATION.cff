@@ -10,7 +10,7 @@ authors:
 version: "1.0"
 date-released: "2026-10-01"
 license: MIT
-repository-code: "https://github.com/anshM123/OEIS-A217703"
+repository-code: "https://github.com/anshM123/Sun-Conjectures-ii-iii-"
 keywords:
   - "OEIS A217703"
   - "linear recurrences"
@@ -28,4 +28,4 @@ preferred-citation:
       given-names: Aryan
   year: 2026
   month: 10
-  url: "https://github.com/anshM123/OEIS-A217703"
+  url: "https://github.com/anshM123/Sun-Conjectures-ii-iii-"
