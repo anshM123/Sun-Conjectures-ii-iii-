@@ -1,0 +1,14 @@
+== formal-conjectures commit: ab0addc45f699bdd0b7cc58efa5140a72f101a9e
+== statement file git blob: 9beb55971fc80118e9c2b20bb92934f6f32c834c  (pull request 6426: 9beb5597...)
+== 1. Statement.lean (unmodified pull-request file, repository options)
+== compiling Core.lean
+== compiling Solution.lean
+== CheckAnswer.lean (definitions agree; type check against the repository statement; axioms)
+OeisA217703.conjecture3 : Filter.Tendsto (fun n => |↑(OeisA217703.a n)| ^ (1 / ↑n) / ↑n ^ 2) Filter.atTop (nhds 0)
+OeisA217703.conjecture3_false : ¬Filter.Tendsto (fun n => |↑(OeisA217703.a n)| ^ (1 / ↑n) / ↑n ^ 2) Filter.atTop
+    (nhds 0)
+'OeisA217703.conjecture3_false' depends on axioms: [propext, Classical.choice, Quot.sound]
+== forbidden keywords (sorry/admit/native_decide/axiom) outside the statement file:
+none
+== done
+== exit 0, 90 s

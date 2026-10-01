@@ -1,0 +1,26 @@
+{
+  "title": "Two conjectures of Sun on the recurrence a(n+1) = 2n(n+1)a(n) - n^4 a(n-1) are false",
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "description": "Let a(0) = 1, a(1) = 0 and a(n+1) = 2n(n+1)a(n) - n^4 a(n-1) (OEIS A217703). Z.-W. Sun conjectured that a(n) < 0 exactly when 1 < n < 58 or n > 2177, and that |a(n)|^(1/n) = o(n^2). Both are false: an exact computation gives a(81935) > 0, and we prove that the limsup of |a(n)|^(1/n)/n^2 is e^(-2), using the Casoratian of the recurrence and a polynomial bound for a second solution. The disproof of the second conjecture is formalized in Lean 4 with Mathlib against the statement OeisA217703.conjecture3 of Google DeepMind's Formal Conjectures repository. The repository contains the paper (LaTeX source and PDF), the Lean files, a check script, exact computations and logs.",
+  "creators": [
+    {
+      "name": "Mishra, Ansh"
+    },
+    {
+      "name": "Senthilkumar, Aryan"
+    }
+  ],
+  "license": "mit",
+  "access_right": "open",
+  "keywords": [
+    "OEIS A217703",
+    "linear recurrences",
+    "Casoratian",
+    "Formal Conjectures",
+    "Lean 4",
+    "formal verification"
+  ],
+  "version": "1.0",
+  "language": "eng"
+}
